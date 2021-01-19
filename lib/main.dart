@@ -21,10 +21,11 @@ class MyApp extends StatelessWidget {
             child: Column(
               children: [
                 Center(
-                    child: CircleAvatar(
-                  radius: 50.0,
-                  backgroundColor: Colors.redAccent,
-                )),
+                  child: CircleAvatar(
+                    radius: 50.0,
+                    backgroundColor: Colors.redAccent,
+                  ),
+                ),
               ],
             ),
           ),
