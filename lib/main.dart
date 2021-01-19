@@ -11,6 +11,23 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           backgroundColor: Colors.blueGrey[900],
+          appBar: AppBar(
+            title: Center(
+                child: Text(
+              'User Info',
+            )),
+          ),
+          body: SafeArea(
+            child: Column(
+              children: [
+                Center(
+                    child: CircleAvatar(
+                  radius: 50.0,
+                  backgroundColor: Colors.redAccent,
+                )),
+              ],
+            ),
+          ),
         ));
   }
 }
